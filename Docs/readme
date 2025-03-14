@@ -1,0 +1,7 @@
+Aşağıdaki komut ile gazebo GUI açılmadan çalıştırılabilir:
+HEADLESS=1 make px4_sitl gazebo-classic
+
+demo-read-gazebo-gps.py : px4 ve gazebo simülasyonu ile gps verisinin okunma örneği.
+(NOT : 14540'tan başlayarak 14549'a kadar px4 dış bağlantıları kabul ediyor. Buradan birden fazla bağlantı yapılabilir.)
+(NOT : Kendisi mavlink mesajlarını 14580 portundan kabul ediyor)
+
